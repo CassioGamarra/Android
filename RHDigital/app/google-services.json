@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398415969711",
+    "firebase_url": "https://cassiogamarra-5ec5d.firebaseio.com",
+    "project_id": "cassiogamarra-5ec5d",
+    "storage_bucket": "cassiogamarra-5ec5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398415969711:android:95035482370fe552",
+        "android_client_info": {
+          "package_name": "br.com.cassiogamarra.rhdigital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398415969711-pjes6uu1mal221q7hsfi8nginugb4fp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoGcs3aBypLYmFbAj2rzOAlYYLlp0-54I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398415969711-pjes6uu1mal221q7hsfi8nginugb4fp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
