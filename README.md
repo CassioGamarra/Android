@@ -1,2 +1,2 @@
 # Android
-Aplicativos desenvolvidos na disciplina de Linguagem de Programação II
+Aplicativos desenvolvidos para Android
