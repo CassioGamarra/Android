@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Atividade - Slideshow"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:src="@drawable/img01" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnAnterior"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="Anterior"
+            android:onClick="anteriorClick"/>
+
+        <Button
+            android:id="@+id/btnProxima"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Próxima"
+            android:onClick="proximoClick"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnDiminuirTransparencia"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Menos Transparência"
+            android:onClick="diminuirTransparencia"/>
+        <Button
+            android:id="@+id/btnAumentarTransparencia"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Mais Transparência"
+            android:onClick="aumentarTransparencia"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:gravity="center"
+        android:text="Selecione o ScaleType"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity=""
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scaleTypeClick"
+            android:text="CENTER" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scaleTypeClick"
+            android:text="CENTER_CROP" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scaleTypeClick"
+            android:text="CENTER_INSIDE" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scaleTypeClick"
+            android:text="FIT_CENTER" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT_END"
+            android:onClick="scaleTypeClick"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT_START"
+            android:onClick="scaleTypeClick"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT_XY"
+            android:onClick="scaleTypeClick"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scaleTypeClick"
+            android:text="MATRIX" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewExplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="gone"/>
+
+</LinearLayout>
