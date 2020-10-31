@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/pessoa"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/cara" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome: " />
+    <TextView
+        android:id="@+id/tvEstadoCivil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estado civil: " />
+    <TextView
+        android:id="@+id/tvGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gênero: " />
+    <TextView
+        android:id="@+id/tvBebida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bebida Favorita: " />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:text="Revelar pretendente" />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_baseline_favorite_24"
+        android:onClick="exibirResultado"/>
+
+    <LinearLayout android:id="@+id/dadosPretendente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/pretendente"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/mulher" />
+
+        <TextView
+            android:id="@+id/tvNomePretendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome: " />
+
+        <TextView
+            android:id="@+id/tvTelefonePretendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone: " />
+        <TextView
+            android:id="@+id/tvEstadoCivilPretendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado Civil: " />
+        <TextView
+            android:id="@+id/tvGeneroPretendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gênero: " />
+
+        <TextView
+            android:id="@+id/tvBebidaPretendente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bebida Favorita: " />
+    </LinearLayout>
+</LinearLayout>
