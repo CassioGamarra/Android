@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@color/corFundoTela"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            style="@style/estiloTitulo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloNomeCompleto"
+            style="@style/estiloSubtitulo"/>
+
+        <EditText
+            android:id="@+id/editTextNomeCompleto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/hintNomeCompleto"
+            style="@style/estiloTextoComum"/>
+
+        <ImageView
+            android:id="@+id/imgGenero"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/homem" />
+        <TextView
+            android:id="@+id/textViewGenero"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textRbMasculino"
+            style="@style/estiloSubtitulo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloGenero"
+            style="@style/estiloSubtitulo"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            >
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="generoClick"
+                android:text="@string/textRbMasculino"
+                style="@style/estiloTextoComum"/>
+
+            <RadioButton
+                android:id="@+id/rbFeminino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="generoClick"
+                android:text="@string/textRbFeminino"
+                style="@style/estiloTextoComum"/>
+            <RadioButton
+                android:id="@+id/rbOutro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="generoClick"
+                android:text="@string/textRbOutro"
+                style="@style/estiloTextoComum"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloEmail"
+            style="@style/estiloSubtitulo"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hintEmail"
+            style="@style/estiloTextoComum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloLogin"
+            style="@style/estiloSubtitulo"/>
+
+        <EditText
+            android:id="@+id/editTextLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hintLogin"
+            style="@style/estiloTextoComum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloSenha"
+            style="@style/estiloSubtitulo"/>
+
+        <EditText
+            android:id="@+id/editTextSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/hintSenha"
+            style="@style/estiloTextoComum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloRepitaSenha"
+            style="@style/estiloSubtitulo"/>
+
+        <EditText
+            android:id="@+id/editTextRepitaSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/hintRepitaSenha"
+            style="@style/estiloTextoComum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloNacionalidade"
+            style="@style/estiloSubtitulo"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteNacionalidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hintNacionalidade"
+            android:completionThreshold="3"
+            style="@style/estiloTextoComum"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subTituloEscolaridade"
+            style="@style/estiloSubtitulo"/>
+
+        <Spinner
+            android:id="@+id/spinnerEscolaridade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/estiloTextoComum"/>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCadastrar"
+            style="@style/estiloBotao"
+            />
+
+    </LinearLayout>
+</ScrollView>

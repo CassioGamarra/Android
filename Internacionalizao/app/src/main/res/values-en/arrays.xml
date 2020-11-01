@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Listas-->
+    <string-array name="listaNacionalidade">
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Spain</item>
+        <item>United States</item>
+    </string-array>
+
+    <string-array name="listaEscolaridade">
+        <item>Elementary Education</item>
+        <item>High School</item>
+        <item>Higher Education</item>
+    </string-array>
+</resources>

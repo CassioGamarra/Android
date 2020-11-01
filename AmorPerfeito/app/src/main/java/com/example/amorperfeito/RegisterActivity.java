@@ -13,10 +13,9 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class RegisterActivity extends AppCompatActivity {
-
-    ArrayList<String> estadoCivil = new ArrayList<>();
-    ArrayList<String> genero = new ArrayList<>();
-    ArrayList<String> bebidas = new ArrayList<>();
+    String[] estadoCivil = new String[] {"Selecione", "Solteiro", "Casado"};
+    String[] genero = new String[] {"Selecione", "Masculino", "Feminino"};
+    String[] bebidas = new String[] {"Selecione", "Vinho", "Refrigerante", "Cerveja"};
 
     Spinner spnEstadoCivil, spnGenero, spnBebidas;
     EditText editTextNome;
@@ -30,20 +29,6 @@ public class RegisterActivity extends AppCompatActivity {
         spnGenero = findViewById(R.id.spinnerGenero);
         spnBebidas = findViewById(R.id.spinnerBebidaFavorita);
         editTextNome = findViewById(R.id.editTextNome);
-
-        //Valores para estado civil
-        estadoCivil.add("Selecione");
-        estadoCivil.add("Solteiro");
-        estadoCivil.add("Casado");
-        //Valores para gênero
-        genero.add("Selecione");
-        genero.add("Masculino");
-        genero.add("Feminino");
-        //Valores para bebidas favoritas
-        bebidas.add("Selecione");
-        bebidas.add("Vinho");
-        bebidas.add("Refrigerante");
-        bebidas.add("Cerveja");
 
         //Criando um adapter para cada valor
         ArrayAdapter adapterEstadoCivil = new ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, estadoCivil);

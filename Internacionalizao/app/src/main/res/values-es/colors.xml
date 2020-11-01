@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="corFundoTela">#c70318</color>
+    <color name="corSubtitulos">#fee000</color>
+    <color name="corTitulo">#ffc500</color>
+    <color name="corTextoBotao">#c70318</color>
+    <color name="corBotao">#c9b300</color>
+    <color name="corTextoComum">#fee000</color>
+</resources>

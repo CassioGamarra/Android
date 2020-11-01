@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Internacionalización </string>
+    <!--Titulos-->
+    <string name="titulo">Recursos e internacionalización</string>
+    <string name="subTituloNomeCompleto">Nombre completo</string>
+    <string name="subTituloGenero">Género</string>
+    <string name="subTituloEmail">Correo electrónico</string>
+    <string name="subTituloLogin">Iniciar sesión</string>
+    <string name="subTituloSenha">Contraseña</string>
+    <string name="subTituloRepitaSenha">Repita la contraseña</string>
+    <string name="subTituloNacionalidade">Nationalidade</string>
+    <string name="subTituloEscolaridade">Educación</string>
+    <!--Rádio Buttons-->
+    <string name="textRbMasculino">Masculino</string>
+    <string name="textRbFeminino">Mujer</string>
+    <string name="textRbOutro">Otro</string>
+    <!--Btn Cadastrar-->
+    <string name="btnCadastrar">Registrarse</string>
+    <!--Hints-->
+    <string name="hintNomeCompleto">Su nombre completo</string>
+    <string name="hintEmail">Su correo electrónico</string>
+    <string name="hintLogin">Su nombre de usuario</string>
+    <string name="hintSenha">Su contraseña</string>
+    <string name="hintRepitaSenha">Repita su contraseña</string>
+    <string name="hintNacionalidade">Su nacionalidad</string>
+    <!--Mensagem de erro-->
+    <string name="mensagemErro">Ocurrió un error</string>
+</resources>

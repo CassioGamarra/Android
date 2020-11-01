@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="estiloTitulo">
+        <item name="android:textSize">@dimen/tamanhoTitulo</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textColor">@color/corTitulo</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="estiloSubtitulo">
+        <!-- o nome de cada item é o nome do atributo que será modificado no componente -->
+        <item name="android:textSize">@dimen/tamanhoSubTitulo</item>
+        <item name="android:textColor">@color/corSubtitulos</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="estiloTextoComum">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/tamanhoTextoComum</item>
+        <item name="android:textColor">@color/corTextoComum</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="estiloBotao">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+        <item name="android:textSize">@dimen/tamanhoSubTitulo</item>
+        <item name="android:textColor">@color/corTextoBotao</item>
+        <item name="android:background">@color/corBotao</item>
+    </style>
+</resources>
